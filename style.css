@@ -1,4 +1,145 @@
-body{
+
+body, html{
+    font-family: SF UI Display,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1{
+
+    font-weight: 900;
+    font-size: 50px;
+}
+
+
+
+h4{
+
+     font-weight: 600;
+     font-size: 16px;
+}
+
+h3{
+
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.wrapper{
+
+    width: 960px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.hero-banner{
 
     background-color: #007FFF;
+    height: 100vh;
 }
+
+
+
+.hero-banner h3,
+.hero-banner h3 a{
+
+    color: white;
+    margin: 0 0 35px;
+    
+}
+
+
+
+.hero-banner h1,
+.hero-banner h1 a{
+
+    color: white;
+    margin: 14px 0 20px 0;
+}
+
+
+.hero-banner h4,
+.hero-banner h4 a{
+
+    color: white;
+    margin: 0;
+}
+
+
+.character1{
+    background: url(img/hat-guy.png) no-repeat 0 0;
+    background-size: 80%;
+    width: 400px;
+    height: 450px;
+    position: absolute; top: 117px; right: 89px;
+
+}
+
+
+.character2{
+
+    background: url(img/ghost-guy.png) no-repeat 0 0;
+    background-size: 80%;
+    width: 400px;
+    height: 500px;
+    position: absolute; top: 213px; right: 277px;
+}
+
+.character3{
+    
+    background: url(img/yellow-alien.png) no-repeat 0 0;
+    background-size: 80%;
+    width: 400px;
+    height: 500px;
+    position: absolute; top: 74px; right: 109px;
+}
+
+
+a.cta,
+button.cta{
+
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    background: #007FFF;
+    display: inline-block;
+    box-shadow: 0 0 0 10px rgba(0,127,255,.15);
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+a.cta.alt,
+button.cta.alt{
+
+    background: #FFD400;
+    box-shadow: 0 0 0 10px rgba(0,0,0,.15);
+    color: black;
+
+
+    
+}
+
+
+
+
+
+
+/*
+
+ <div class="hero-banner">
+      <div class="wrapper">
+        <h4>Rich from <a href="https://taptapkaboom.com/">Tap Tap Kaboom</a> presents</h4>
+        <h1>The Silliest &amp; <br/> 
+          Most Awesome Gang <br/>  
+          In The World!</h1>
+        <h3>It’s Circle Guy, Hat Guy &amp; Red Guy.<br/>
+            They’re the best of friends.</h3>
+        <a class="cta alt" href="#more-info">Read More</a>
+    </div>
+
+*/
